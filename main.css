@@ -1,0 +1,56 @@
+body {
+	font-family: "HelveticaNeue-Light";
+	margin: 0 0;
+}
+h1 {
+	text-align: center;
+	margin: 2.5em 0;
+	font-weight: normal;
+	font-size: 26pt;
+}
+header {
+
+}
+#main {
+	background-color: #4FC9FD;
+	height: 75vh;
+}
+#container {
+	padding: 6em 6em;
+}
+#sign-up {
+	text-align: right;
+	color: #fff;
+	margin-top: 25vh;
+}
+#sign-up a {
+	color: #fff;
+}
+input {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 3px solid #fff;
+	font-size: 20pt;
+	color: #fff;
+	min-width: 15em;
+	text-align: left;
+}
+input::placeholder {
+	color: #fff;
+}
+button {
+	margin-top: 1em;
+	background-color: #FFC952;
+	border: none;
+	color: white;
+	padding: 10px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 0.3em;
+}
+button:hover {
+	cursor: pointer;
+}
